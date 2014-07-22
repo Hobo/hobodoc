@@ -822,7 +822,7 @@ Due to a limitation of the current DRYML implementation, you cannot use both `be
 
     <heading: replace>
       ... before content ...
-      <heading restore>
+      <heading restore/>
       ... after content ...
     </heading:>
 {.dryml}
