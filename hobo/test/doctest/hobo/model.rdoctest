@@ -287,12 +287,7 @@ session.   It is also used throughout Rapid.
 
 This sets the :order option on the finder for the class.
 
-Note that Rails 2.3 has
-[default\_scope](http://ryandaigle.com/articles/2008/11/18/what-s-new-in-edge-rails-default-scoping).
-This may be used instead of `set_default_order`, although currently
-there are many bugs open against `default_scope` in Rails.  See [ticket #395](
-https://hobo.lighthouseapp.com/projects/8324/tickets/395-remove-default_order-once-were-on-rails-23)
-for more information on this issue.
+N.B. Rails 4.x has a sophisticated chainable scoping system.
 
 # reverse\_reflection
 
@@ -322,9 +317,7 @@ the other model.
 # view\_hints
 
 This provides a shortcut to the corresponding
-[ViewHints](../viewhints) object.
+[ViewHints](../manual/viewhints) object.
 
     >> Post.view_hints
     => PostHints
-
-
