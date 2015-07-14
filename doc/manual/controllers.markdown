@@ -570,6 +570,8 @@ and in the [manual for name-one](http://cookbook.hobocentral.net/api_tag_defs/na
 
 # Drag and drop reordering
 
+[Note: this does not work with the Hobo 2.1.1 default theme, hobo-bootstrap, out of the box; see http://hobocentral.net/api_plugins/hobo_bootstrap_ui for details]
+
 The controller has the server-side support for drag-and-drop reordering of models that declare `acts_as_list`. Say, for example, your `Task` model uses `acts_as_list`, then Hobo will add a `reorder` action routed as `/tasks/reorder` that looks like:
 
     def reorder
