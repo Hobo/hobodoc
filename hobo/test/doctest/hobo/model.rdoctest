@@ -317,7 +317,7 @@ the other model.
 # view\_hints
 
 This provides a shortcut to the corresponding
-[ViewHints](../manual/viewhints) object.
+[ViewHints](../viewhints) object.
 
     >> Post.view_hints
     => PostHints
