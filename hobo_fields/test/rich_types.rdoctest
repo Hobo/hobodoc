@@ -202,7 +202,7 @@ Provides validation of correct email address format.
         >> HoboFields::Types::PasswordString.new("pass<word>").to_html.html_safe?
         => true
 
-### `HoboFields::Serialized`
+### `HoboFields::Types::Serialized`
 
 This type lets you store an arbitrary object as serialized text into
 the database column.   You can optionally pass the :class option to
